@@ -1,0 +1,65 @@
+* {
+    /* Tirando formatação automática HTML */
+    margin: 0;
+    padding: 0;
+    text-decoration: none ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    /* Criando variáveis */
+    --titulo: #02321a ;
+    --verdemeio: #014d27;
+    --letra: #ffffff;
+    --fundo: #fafafa;
+    --verdinho: #89cc86;
+    --preto: black;
+    --altura: 100px;
+}
+
+p {
+    font-size: 110%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+li {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 110%;
+}
+
+h2 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h3 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.t {
+    text-align: center;
+    color: var(--titulo);
+}
+
+span {
+    font-weight: bold;
+    color: var(--verdinho)
+}
+
+.italico {
+    font-style: italic;
+}
+
+button:hover {
+    color: var(--letra);
+    background-color: var(--verdemeio)
+}
+.agendamento {
+    background-color: var(--verdinho);
+    color: var(--verdemeio);
+    border-radius: 19px;
+    padding: 20px;
+}
